@@ -1,4 +1,4 @@
-// import React from 'react';
+import React from 'react';
 import Medium from './logos/Medium';
 import Hashnode from './logos/Hashnode';
 import Dev from './logos/Dev';
