@@ -1,15 +1,17 @@
 import {
-  NinjaPlayer, 
-  NinjaPodcastPlayer
-} from './components/ninja-player'
-
+  RecentPosts,
+  SinglePost,
+  TweetCard
+} from './components/recent-posts'
 import {
-  Discast
-} from './components/discast'
+  Logo
+} from './components/icons'
+import {ProfileCard} from './components/profile-card'
 
 export {
-  NinjaPlayer,
-  NinjaPodcastPlayer,
-  Discast
+  RecentPosts,
+  Logo,
+  SinglePost,
+  TweetCard,
+  ProfileCard
 }
-

@@ -1,0 +1,1 @@
+export {feedParser} from './parser'

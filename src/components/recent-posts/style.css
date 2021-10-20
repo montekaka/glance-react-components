@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+.post-style-thumbnail {
+  width: 300px;
+  /* background-color: aliceblue; */
+}
+
+.post-style-thumbnail > .title {
+  max-height: 24px;
+  word-break: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.scroll-box__wrapper {
+  overflow-y: hidden;
+  overflow-x: scroll;
+  -ms-overflow-style: none; /* IE */
+  overflow: -moz-scrollbars-none; 
+}
+
+.scroll-box__wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.avatar {
+  display: inline-block;
+  border-radius: 100%;
+  position: relative;
+  overflow: hidden;
+  vertical-align: middle;
+  padding: 4px;
+}
