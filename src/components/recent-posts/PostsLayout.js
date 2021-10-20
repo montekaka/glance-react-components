@@ -1,11 +1,10 @@
 import React from 'react';
 import './style.css'
 
-const PostsLayout = (props) => {
-  const {style} = props;
-  
+// https://flaviocopes.com/react-pass-props-to-children/
+const PostsLayout = (props) => {  
   return (
-    <div style={style}>
+    <div {...props}>
       {props.children}
     </div>
   )
