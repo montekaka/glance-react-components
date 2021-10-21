@@ -1,4 +1,5 @@
 import React from 'react';
+
 import PostsLayout from './PostsLayout'
 import Header from './Header';
 import RecentPostBody from './RecentPostBody'
@@ -13,7 +14,8 @@ const RecentPosts = ({
   headerStyle,
   headerIconStyle,
   postTitleTextColor,
-  postPubDateTextColor
+  postPubDateTextColor,
+  loading
 }) => {
 
   // const [items, loading, errorMessage] = useFetchFeed(feedUrl, proxy, numberOfItems);
@@ -25,13 +27,14 @@ const RecentPosts = ({
 
   return (
     <PostsLayout style={style}>
-      <Header title={title} iconName={iconName} style={headerStyle} iconStyle={headerIconStyle}/>
+      <Header title={title} iconName={iconName} style={headerStyle} iconStyle={headerIconStyle}/>      
       <RecentPostBody 
+        loading={loading}
         posts={posts} 
         showThumbnail={showThumbnail}
         postTitleTextColor={postTitleTextColor}
         postPubDateTextColor={postPubDateTextColor}
-      />
+      />        
     </PostsLayout>
   )
 }
