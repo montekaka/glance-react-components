@@ -34,13 +34,13 @@ const ProfileCard = ({
         <div style={{
           color: primaryColor,
           fontFamily,
-          fontSize: 21,
+          fontSize: "21px",
           fontStyle: "SemiBold"
         }} className="title">{title}</div>
         <div style={{
           color: secondaryColor,
           fontFamily,
-          fontSize: 18,
+          fontSize: "18px",
           fontStyle: "Regular"          
         }} className="subtitle">
           {subtitle}

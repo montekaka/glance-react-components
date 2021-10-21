@@ -6,7 +6,7 @@ const LinkButton = ({link, fontFamily, color, backgroundColor}) => {
     color,
     backgroundColor,
     fontFamily,
-    fontSize: 18,
+    fontSize: "18px",
     fontStyle: "SemiBold",
   }
 

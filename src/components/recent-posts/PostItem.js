@@ -40,7 +40,7 @@ const PostItem = ({
         <div className="pub-date" style={{
           marginTop: '14px',
           // fontFamily: "DM Sans", 
-          fontWeight: '500', 
+          fontWeight: '500px', 
           fontSize: "13px",
           lineHeight: "16.93px",
           color: pubDateTextColor // "#FFFFFF80",

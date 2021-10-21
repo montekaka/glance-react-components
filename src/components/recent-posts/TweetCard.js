@@ -40,6 +40,7 @@ const TweetCard = ({
       <div 
       style={{
         margin: "30px",
+        minWidth: "273px",
         minHeight: "100px",
         borderRadius: "12px",
         padding: "16px",
@@ -57,10 +58,10 @@ const TweetCard = ({
           <div style={{
             display: 'flex',
           }}>
-            <div style={{color: primaryTextColor, fontFamily, fontStyle: 'medium', fontSize: "13", marginRight: '10px'}}>{authorName}</div>
-            <div style={{color: secondaryTextColor, fontStyle: 'medium', fontSize: "11"}}>{screenName}</div>
+            <div style={{color: primaryTextColor, fontFamily, fontStyle: 'medium', fontSize: "13px", marginRight: '10px'}}>{authorName}</div>
+            <div style={{color: secondaryTextColor, fontStyle: 'medium', fontSize: "11px"}}>{screenName}</div>
           </div>
-          <p style={{color: secondaryTextColor, fontStyle: 'medium', fontSize: "13"}}>
+          <p style={{color: secondaryTextColor, fontStyle: 'medium', fontSize: "13px"}}>
             {tweetBody}
           </p>
         </div>
