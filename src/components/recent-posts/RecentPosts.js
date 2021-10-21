@@ -29,7 +29,7 @@ const RecentPosts = ({
     <PostsLayout style={style}>
       <Header title={title} iconName={iconName} style={headerStyle} iconStyle={headerIconStyle}/>      
       <RecentPostBody 
-        loading={loading}
+        loading={true}
         posts={posts} 
         showThumbnail={showThumbnail}
         postTitleTextColor={postTitleTextColor}
