@@ -32,3 +32,13 @@
   vertical-align: middle;
   padding: 4px;
 }
+
+.github-link-box {  
+  width: 180px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;  
+  padding: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+}

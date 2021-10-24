@@ -134,6 +134,8 @@ stories.add('Github', () => {
       username="montekaka"
       backgroundColor="#131C45"
       cardBackgroundColor="#1B275A"  
+      linkColor="#6E7598"
+      linkBackgroundColor="#182354"
       fontFamily="Inter"    
       headerIconStyle={{
         width: "24px",

@@ -11,8 +11,9 @@ const GithubCalendarCard = ({
   backgroundColor,
   headerStyle,
   headerIconStyle,
-  postTitleTextColor,
-  postPubDateTextColor
+  colors,
+  linkColor,
+  linkBackgroundColor
 }) => {
 
   const style = {
@@ -21,13 +22,26 @@ const GithubCalendarCard = ({
     fontFamily, // "DM Sans",
   }
 
+  const onClick = () => {
+    window.open(`https://github.com/${username}`, "_blank");
+  }
+
   return (
     <PostsLayout style={style}>
-      <Header title={title} iconName={iconName} style={headerStyle} iconStyle={headerIconStyle}/>
+      <Header title={title} iconName={iconName} style={headerStyle} iconStyle={headerIconStyle}>
+        <div 
+          onClick={onClick}
+          className="github-link-box" 
+          style={{
+          backgroundColor: linkBackgroundColor,
+          color: linkColor,
+          height: headerIconStyle.width
+        }}>https://github.com/{username}</div>
+      </Header>
       <div style={{
-        height: '140px'        
+        height: '140px'
       }}>
-        <GithubCalendar/>
+        <GithubCalendar username={username} colors={colors}/>
       </div>
     </PostsLayout>
   )
