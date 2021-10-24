@@ -1,5 +1,4 @@
 import React from 'react';
-
 import PostsLayout from './PostsLayout'
 import Header from './Header';
 import RecentPostBody from './RecentPostBody'

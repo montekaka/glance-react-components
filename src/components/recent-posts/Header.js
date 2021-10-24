@@ -2,7 +2,7 @@ import React from 'react';
 import {Logo} from '../icons'
 
 const Header = ({
-  title, iconName, style, iconStyle
+  title, iconName, style, iconStyle, children
 }) => {
   return (
     <div className="header" style={{
@@ -21,6 +21,7 @@ const Header = ({
         // color: "#FFFFFF80",
         ...style
       }}>{title}</div>
+      {children}
     </div>
   )
 }

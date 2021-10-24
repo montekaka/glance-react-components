@@ -1,0 +1,11 @@
+.github-calendar-item {
+  width: 5px;
+  height: 5px;
+}
+
+@media screen and (min-width: 1200px) {
+  .github-calendar-item {
+    width: 12px;
+    height: 12px;
+  }
+}

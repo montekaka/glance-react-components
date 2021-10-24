@@ -1,7 +1,7 @@
 import React from 'react';
 import {storiesOf} from '@storybook/react'
 import DemoContainer from '../components/recent-posts/DemoContainer'
-import {SinglePost, TweetCard} from '../components/recent-posts'
+import {SinglePost, TweetCard, GithubCalendarCard} from '../components/recent-posts'
 
 const stories = storiesOf('Recent blog post test', module);
 
@@ -122,6 +122,28 @@ stories.add('Twitter', () => {
       }}
       primaryTextColor="#FFFFFF"
       secondaryTextColor="#6E7598"      
+    />
+  )
+})
+
+stories.add('Github', () => {
+  return (
+    <GithubCalendarCard
+      title="Github"
+      iconName="github"
+      username="montekaka"
+      backgroundColor="#131C45"
+      cardBackgroundColor="#1B275A"  
+      fontFamily="Inter"    
+      headerIconStyle={{
+        width: "24px",
+        height: "24px",
+        rectFill: "#FFFFFF",
+        pathFill: "#FFFFFF"
+      }}
+      headerStyle={{
+        color: "#6E7598"
+      }}      
     />
   )
 })
