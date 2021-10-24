@@ -1,7 +1,8 @@
 import {
   RecentPosts,
   SinglePost,
-  TweetCard
+  TweetCard,
+  GithubCalendarCard
 } from './components/recent-posts'
 import {
   Logo
@@ -13,5 +14,6 @@ export {
   Logo,
   SinglePost,
   TweetCard,
-  ProfileCard
+  ProfileCard,
+  GithubCalendarCard
 }
