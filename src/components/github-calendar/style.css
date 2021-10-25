@@ -1,6 +1,41 @@
 .github-calendar-item {
-  width: 5px;
-  height: 5px;
+  width: 3.4px;
+  height: 3.4px;
+}
+
+@media screen and (min-width: 500px) {
+  .github-calendar-item {
+    width: 5px;
+    height: 5px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .github-calendar-item {
+    width: 6px;
+    height: 6px;
+  }
+}
+
+@media screen and (min-width: 740px) {
+  .github-calendar-item {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .github-calendar-item {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .github-calendar-item {
+    width: 14px;
+    height: 14px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
