@@ -40,7 +40,7 @@ const Logo = ({skill}) => {
       return <AwsS3/>
     case 'azure':
       return <Azure/>
-    case 'Bootstrap':
+    case 'bootstrap':
       return <Bootstrap/>
     case 'django':
       return <Django/>
@@ -89,7 +89,8 @@ const TechSkill = ({backgroundColor, skill}) => {
       height: '32px',
       display: 'flex',
       justifyContent: 'center',
-      alignContent: 'center',
+      // alignContent: 'center',
+      alignItems: 'center',
       backgroundColor,
       borderRadius: '8px'
     }}>

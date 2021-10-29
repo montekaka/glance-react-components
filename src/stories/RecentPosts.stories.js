@@ -1,7 +1,7 @@
 import React from 'react';
 import {storiesOf} from '@storybook/react'
 import DemoContainer from '../components/recent-posts/DemoContainer'
-import {SinglePost, TweetCard, GithubCalendarCard} from '../components/recent-posts'
+import {MyStacks, SinglePost, TweetCard, GithubCalendarCard} from '../components/recent-posts'
 
 const stories = storiesOf('Recent blog post test', module);
 
@@ -146,6 +146,29 @@ stories.add('Github', () => {
       headerStyle={{
         color: "#6E7598"
       }}      
+    />
+  )
+})
+
+
+stories.add('Skills', () => {
+  return (
+    <MyStacks
+      title="Technical Skills"
+      iconName="tech-stacks"
+      fontFamily="Inter"
+      backgroundColor="#131C45"      
+      headerIconStyle={{
+        width: "24px",
+        height: "24px",
+        rectFill: "#FFFFFF",
+        pathFill: "#FFFFFF"
+      }}
+      headerStyle={{
+        color: "#6E7598"
+      }}  
+      stacksBackgroundColor="#222E66"
+      stacks={['python', 'my-sql', 'react-js', 'ant-design', 'firebase', 'nginx', 'mongo']}
     />
   )
 })

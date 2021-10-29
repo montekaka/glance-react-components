@@ -45,3 +45,4 @@ const AntDesign = () => {
   )
 }
 
+export default AntDesign;
