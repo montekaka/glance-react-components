@@ -6,6 +6,7 @@ import Behance from './logos/Behance'
 import Twitter from './logos/Twitter'
 import Github from './logos/Github'
 import Dribbble from './logos/Dribbble'
+import TechStacks from './logos/TechStacks'
 
 const Logo = ({iconName, rect_fill, path_fill, width, height}) => { 
   switch(iconName) {
@@ -23,6 +24,8 @@ const Logo = ({iconName, rect_fill, path_fill, width, height}) => {
       return <Github rect_fill={rect_fill} path_fill={path_fill} width={width} height={height}/>                              
     case 'dribbble': 
       return <Dribbble rect_fill={rect_fill} path_fill={path_fill} width={width} height={height}/>                                    
+    case 'tech-stacks':
+      return <TechStacks rect_fill={rect_fill} path_fill={path_fill} width={width} height={height}/>
     default:
       // default should be glance icon or loading...
       return <Dribbble rect_fill={rect_fill} path_fill={path_fill} width={width} height={height}/>
