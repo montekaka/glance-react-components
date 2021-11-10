@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Medium = ({rect_fill, path_fill, width, height}) => {
+const Dev = ({rect_fill, path_fill, width, height}) => {
 	// <!-- #12100E -->
 	return (
 		<svg style={{width, height, borderRadius: 8}} viewBox="0 0 448 512" version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid">
@@ -11,4 +11,4 @@ const Medium = ({rect_fill, path_fill, width, height}) => {
 	)
 }
 
-export default Medium;
+export default Dev;
