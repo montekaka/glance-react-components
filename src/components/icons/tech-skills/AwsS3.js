@@ -3,7 +3,7 @@ import React from 'react'
 const AwsS3 = () => {
   return (
     <svg width="18" height="22" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <g clip-path="url(#clip0_126:1822)">
+    <g clipPath="url(#clip0_126:1822)">
     <path d="M1.53037 4.02783L0.111084 4.73761V17.1949L1.53037 17.9006L1.5389 17.8903V4.0376L1.53037 4.02783Z" fill="#8C3123"/>
     <path d="M9.12616 16.0925L1.5304 17.9006V4.02783L9.12616 5.7965V16.0925Z" fill="#E05243"/>
     <path d="M5.69751 13.2619L8.91939 13.6721L8.93962 13.6254L8.95772 8.34232L8.91939 8.30103L5.69751 8.70526V13.2619Z" fill="#8C3123"/>

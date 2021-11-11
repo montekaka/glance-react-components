@@ -3,7 +3,7 @@ import React from 'react';
 const Apache = () => {
   return (
     <svg width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <g clip-path="url(#clip0_126:1787)">
+      <g clipPath="url(#clip0_126:1787)">
       <path d="M9.75208 0.453513C9.42004 0.648555 8.86391 1.20889 8.19983 2.01822V2.06801L8.78087 3.14301L8.80995 3.16376C9.23745 2.55364 9.66908 2.00164 10.109 1.53264C10.1422 1.49526 10.1588 1.47868 10.1588 1.47868C10.1422 1.49526 10.1256 1.51601 10.109 1.53264C9.96791 1.69035 9.53625 2.18839 8.88879 3.18451L8.9635 3.2011C8.9635 3.2011 10.4784 3.05168 11.2089 2.92718L11.2504 2.88981C11.4828 1.58656 11.0221 0.98893 11.0221 0.98893C11.0221 0.98893 10.4411 0.0508882 9.75212 0.453513H9.75208Z" fill="url(#paint0_linear_126:1787)"/>
       <path d="M7.01676 6.13141C7.20351 5.78695 7.39031 5.44662 7.57705 5.1187C7.77214 4.77837 7.97135 4.44633 8.17472 4.12674C8.18718 4.11016 8.19964 4.08941 8.20793 4.06866C8.40133 3.76233 8.602 3.46065 8.80976 3.16387L8.19964 2.01416C8.15397 2.06812 8.1083 2.12624 8.06268 2.18433C7.88835 2.40433 7.70572 2.63674 7.51893 2.88579C7.29797 3.18087 7.08212 3.47975 6.87147 3.78229C6.66192 4.08198 6.45715 4.385 6.25722 4.6912C6.08289 4.96099 5.90443 5.23495 5.73014 5.52133C5.72181 5.53374 5.71764 5.54208 5.70935 5.55453V5.60016L6.46889 7.10679L6.5021 7.11924C6.67226 6.78716 6.84243 6.45516 7.01676 6.13141Z" fill="url(#paint1_linear_126:1787)"/>
       <path d="M3.70903 13.5068C3.84598 13.1498 3.99123 12.7887 4.13653 12.4235C4.27761 12.0748 4.41873 11.722 4.56819 11.3693C4.71344 11.0165 4.86698 10.6637 5.02057 10.3068C5.17827 9.94567 5.33598 9.58459 5.49786 9.22763C5.65973 8.87484 5.82161 8.52205 5.98761 8.17342C6.0468 8.04671 6.10768 7.9208 6.17023 7.79571C6.27398 7.57988 6.3819 7.36405 6.48565 7.15238C6.48981 7.13996 6.49815 7.13167 6.50227 7.11921L5.70952 5.5545L5.67219 5.61675C5.48957 5.91971 5.30277 6.22684 5.12432 6.5423C4.94092 6.86329 4.76242 7.18706 4.5889 7.5135C4.43948 7.79159 4.2984 8.06967 4.15723 8.35188C4.12819 8.41 4.10332 8.46396 4.07428 8.52205C3.90891 8.86097 3.75253 9.2042 3.60528 9.55138C3.44753 9.92492 3.30644 10.2818 3.18194 10.6222C3.0989 10.8463 3.02836 11.058 2.95778 11.2655C2.90331 11.4407 2.85073 11.6164 2.80007 11.7926C2.68149 12.2018 2.5804 12.6158 2.49707 13.0336L2.50957 13.0834L3.26907 14.5942L3.29399 14.6066C3.39774 14.3244 3.50565 14.0422 3.61773 13.7516C3.64678 13.6686 3.67998 13.5898 3.70898 13.5068H3.70903Z" fill="url(#paint2_linear_126:1787)"/>
@@ -14,45 +14,45 @@ const Apache = () => {
       </g>
       <defs>
       <linearGradient id="paint0_linear_126:1787" x1="8.70972" y1="2.17311" x2="13.1118" y2="0.707932" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#F69923"/>
-      <stop offset="0.3123" stop-color="#F79A23"/>
-      <stop offset="0.8383" stop-color="#E97826"/>
+      <stop stopColor="#F69923"/>
+      <stop offset="0.3123" stopColor="#F79A23"/>
+      <stop offset="0.8383" stopColor="#E97826"/>
       </linearGradient>
       <linearGradient id="paint1_linear_126:1787" x1="-1.03872" y1="22.1625" x2="13.9972" y2="10.2691" gradientUnits="userSpaceOnUse">
-      <stop offset="0.3233" stop-color="#9E2064"/>
-      <stop offset="0.6302" stop-color="#C92037"/>
-      <stop offset="0.7514" stop-color="#CD2335"/>
-      <stop offset="1" stop-color="#E97826"/>
+      <stop offset="0.3233" stopColor="#9E2064"/>
+      <stop offset="0.6302" stopColor="#C92037"/>
+      <stop offset="0.7514" stopColor="#CD2335"/>
+      <stop offset="1" stopColor="#E97826"/>
       </linearGradient>
       <linearGradient id="paint2_linear_126:1787" x1="-0.708853" y1="20.981" x2="13.9335" y2="14.8335" gradientUnits="userSpaceOnUse">
-      <stop offset="0.3233" stop-color="#9E2064"/>
-      <stop offset="0.6302" stop-color="#C92037"/>
-      <stop offset="0.7514" stop-color="#CD2335"/>
-      <stop offset="1" stop-color="#E97826"/>
+      <stop offset="0.3233" stopColor="#9E2064"/>
+      <stop offset="0.6302" stopColor="#C92037"/>
+      <stop offset="0.7514" stopColor="#CD2335"/>
+      <stop offset="1" stopColor="#E97826"/>
       </linearGradient>
       <linearGradient id="paint3_linear_126:1787" x1="0.216137" y1="19.6864" x2="6.72897" y2="18.4115" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#282662"/>
-      <stop offset="0.09548" stop-color="#662E8D"/>
-      <stop offset="0.7882" stop-color="#9F2064"/>
-      <stop offset="0.9487" stop-color="#CD2032"/>
+      <stop stopColor="#282662"/>
+      <stop offset="0.09548" stopColor="#662E8D"/>
+      <stop offset="0.7882" stopColor="#9F2064"/>
+      <stop offset="0.9487" stopColor="#CD2032"/>
       </linearGradient>
       <linearGradient id="paint4_linear_126:1787" x1="0.639861" y1="23.0833" x2="8.84075" y2="3.28435" gradientUnits="userSpaceOnUse">
-      <stop offset="0.3233" stop-color="#9E2064"/>
-      <stop offset="0.6302" stop-color="#C92037"/>
-      <stop offset="0.7514" stop-color="#CD2335"/>
-      <stop offset="1" stop-color="#E97826"/>
+      <stop offset="0.3233" stopColor="#9E2064"/>
+      <stop offset="0.6302" stopColor="#C92037"/>
+      <stop offset="0.7514" stopColor="#CD2335"/>
+      <stop offset="1" stopColor="#E97826"/>
       </linearGradient>
       <linearGradient id="paint5_linear_126:1787" x1="1.29836" y1="21.9441" x2="14.3074" y2="5.61459" gradientUnits="userSpaceOnUse">
-      <stop offset="0.3233" stop-color="#9E2064"/>
-      <stop offset="0.6302" stop-color="#C92037"/>
-      <stop offset="0.7514" stop-color="#CD2335"/>
-      <stop offset="1" stop-color="#E97826"/>
+      <stop offset="0.3233" stopColor="#9E2064"/>
+      <stop offset="0.6302" stopColor="#C92037"/>
+      <stop offset="0.7514" stopColor="#CD2335"/>
+      <stop offset="1" stopColor="#E97826"/>
       </linearGradient>
       <linearGradient id="paint6_linear_126:1787" x1="2.00764" y1="20.7203" x2="6.95704" y2="8.94811" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#282662"/>
-      <stop offset="0.09548" stop-color="#662E8D"/>
-      <stop offset="0.7882" stop-color="#9F2064"/>
-      <stop offset="0.9487" stop-color="#CD2032"/>
+      <stop stopColor="#282662"/>
+      <stop offset="0.09548" stopColor="#662E8D"/>
+      <stop offset="0.7882" stopColor="#9F2064"/>
+      <stop offset="0.9487" stopColor="#CD2032"/>
       </linearGradient>
       <clipPath id="clip0_126:1787">
       <rect width="10.6667" height="21.3333" fill="white" transform="translate(0.666626 0.333313)"/>

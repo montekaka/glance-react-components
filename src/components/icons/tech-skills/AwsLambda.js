@@ -3,7 +3,7 @@ import React from 'react'
 const AwsLambda = () => {
   return (
 <svg width="18" height="22" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_126:1867)">
+<g clipPath="url(#clip0_126:1867)">
 <path d="M0.111084 17.2116L1.23432 17.7733L1.41861 17.446V4.41653L1.23432 4.17609L0.111084 4.7377V17.2116Z" fill="#9D5025"/>
 <path d="M3.39208 4.70811L1.23425 4.17609V17.7733L3.39208 17.2708V4.70811Z" fill="#F68536"/>
 <path d="M10.0133 5.74271L11.5503 4.94464L16.6641 6.92506L15.3044 7.1024L10.0133 5.74271Z" fill="#6B3A19"/>

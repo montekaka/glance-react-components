@@ -10,8 +10,8 @@ const AntDesign = () => {
 <path d="M11.0281 13.6245C12.4675 13.6245 13.6343 12.4586 13.6343 11.0204C13.6343 9.58221 12.4675 8.41632 11.0281 8.41632C9.58872 8.41632 8.42188 9.58221 8.42188 11.0204C8.42188 12.4586 9.58872 13.6245 11.0281 13.6245Z" fill="url(#paint3_linear_126:1907)"/>
 </g>
 <defs>
-<filter id="filter0_d_126:1907" x="-3.99988" y="-0.000183105" width="29.9568" height="29.9435" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<filter id="filter0_d_126:1907" x="-3.99988" y="-0.000183105" width="29.9568" height="29.9435" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="4"/>
 <feGaussianBlur stdDeviation="2"/>
@@ -21,23 +21,23 @@ const AntDesign = () => {
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_126:1907" result="shape"/>
 </filter>
 <linearGradient id="paint0_linear_126:1907" x1="10.1311" y1="-6.13124e-05" x2="19.3039" y2="5.60162" gradientUnits="userSpaceOnUse">
-<stop stop-color="#4285EB"/>
-<stop offset="1" stop-color="#2EC7FF"/>
+<stop stopColor="#4285EB"/>
+<stop offset="1" stopColor="#2EC7FF"/>
 </linearGradient>
 <linearGradient id="paint1_linear_126:1907" x1="11.3615" y1="-0.000182963" x2="6.83101" y2="23.4148" gradientUnits="userSpaceOnUse">
-<stop stop-color="#29CDFF"/>
-<stop offset="0.3786" stop-color="#148EFF"/>
-<stop offset="1" stop-color="#0A60FF"/>
+<stop stopColor="#29CDFF"/>
+<stop offset="0.3786" stopColor="#148EFF"/>
+<stop offset="1" stopColor="#0A60FF"/>
 </linearGradient>
 <linearGradient id="paint2_linear_126:1907" x1="20.31" y1="5.61912" x2="14.4151" y2="14.8381" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FA816E"/>
-<stop offset="0.41473" stop-color="#F74A5C"/>
-<stop offset="1" stop-color="#F51D2C"/>
+<stop stopColor="#FA816E"/>
+<stop offset="0.41473" stopColor="#F74A5C"/>
+<stop offset="1" stopColor="#F51D2C"/>
 </linearGradient>
 <linearGradient id="paint3_linear_126:1907" x1="11.973" y1="6.55748" x2="10.0116" y2="14.4035" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FA8E7D"/>
-<stop offset="0.51264" stop-color="#F74A5C"/>
-<stop offset="1" stop-color="#F51D2C"/>
+<stop stopColor="#FA8E7D"/>
+<stop offset="0.51264" stopColor="#F74A5C"/>
+<stop offset="1" stopColor="#F51D2C"/>
 </linearGradient>
 </defs>
 </svg>
