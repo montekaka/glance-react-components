@@ -3,8 +3,8 @@ import React from 'react';
 const Website = ({rect_fill, path_fill, width, height}) => {
 	// <!-- #12100E -->
 	return (
-		<svg style={{width, height, borderRadius: 8}} viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid">
-			<path d="M8 0C3.6 0 0 3.6 0 8C0 12.4 3.6 16 8 16C12.4 16 16 12.4 16 8C16 3.6 12.4 0 8 0ZM13.9 7H12C11.9 5.5 11.6 4.1 11.2 2.9C12.6 3.8 13.6 5.3 13.9 7ZM8 14C7.4 14 6.2 12.1 6 9H10C9.8 12.1 8.6 14 8 14ZM6 7C6.2 3.9 7.3 2 8 2C8.7 2 9.8 3.9 10 7H6ZM4.9 2.9C4.4 4.1 4.1 5.5 4 7H2.1C2.4 5.3 3.4 3.8 4.9 2.9ZM2.1 9H4C4.1 10.5 4.4 11.9 4.8 13.1C3.4 12.2 2.4 10.7 2.1 9ZM11.1 13.1C11.6 11.9 11.8 10.5 11.9 9H13.8C13.6 10.7 12.6 12.2 11.1 13.1Z" fill={path_fill}/>
+		<svg style={{width, height, borderRadius: 8}} viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid">
+			<circle cx="32" cy="32" fill="none" r="24" stroke={path_fill} strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit="10" strokeWidth="2"/><line fill="none" stroke={path_fill} strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit="10" strokeWidth="2" x1="32" x2="32" y1="11" y2="52"/><line fill="none" stroke={path_fill} strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit="10" strokeWidth="2" x1="11" x2="52" y1="32" y2="32"/><line fill="none" stroke={path_fill} strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit="10" strokeWidth="2" x1="16" x2="48" y1="19" y2="19"/><line fill="none" stroke={path_fill} strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit="10" strokeWidth="2" x1="16" x2="48" y1="45" y2="45"/><path d="  M26,12.2c0,0-6.5,8.3-6.5,19.8s6.3,19.5,6.3,19.5" fill="none" stroke={path_fill} strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit="10" strokeWidth="2"/><path d="  M37.4,12.2c0,0,6.5,8.3,6.5,19.8s-6.3,19.5-6.3,19.5" fill="none" stroke={path_fill} strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit="10" strokeWidth="2"/>
 		</svg>
 	)
 }
