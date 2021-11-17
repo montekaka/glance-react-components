@@ -26,7 +26,7 @@ const ProfileLinks = ({links, size, iconSize, color}) => {
                 }}>
                   <Logo                     
                     iconName={link.id}
-                    // path_fill={color}
+                    path_fill={"black"}
                     width={iconSize}
                     height={iconSize}
                   />

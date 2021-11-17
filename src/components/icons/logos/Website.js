@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Github = ({rect_fill, path_fill, width, height}) => {
+const Website = ({rect_fill, path_fill, width, height}) => {
 	// <!-- #12100E -->
 	return (
 		<svg style={{width, height, borderRadius: 8}} viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid">
@@ -9,4 +9,4 @@ const Github = ({rect_fill, path_fill, width, height}) => {
 	)
 }
 
-export default Github;
+export default Website;

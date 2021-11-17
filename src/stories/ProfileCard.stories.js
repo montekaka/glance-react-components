@@ -30,7 +30,7 @@ stories.add('Basic', () => {
           url: "http://..."
         },
         {
-          id: 'github',
+          id: 'linkedin',
           name: 'Github',
           url: "http://..."
         }
