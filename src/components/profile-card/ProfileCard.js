@@ -48,7 +48,12 @@ const ProfileCard = ({
         <ProfileLinks links={links} size="16px" iconSize="14px" color={linksColor}/>
       </div>
       <div className="profile-card-link">
-        <LinkButton backgroundColor={linkColor} color={primaryColor} fontFamily={fontFamily}/>
+        <LinkButton 
+          link={link}
+          backgroundColor={linkColor} 
+          color={primaryColor} 
+          fontFamily={fontFamily}
+        />
       </div>        
     </div>
     

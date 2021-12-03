@@ -1,7 +1,10 @@
-import React from 'react';
+import React, {useState} from 'react';
+import * as copy from 'copy-to-clipboard';
 
 const LinkButton = ({link, fontFamily, color, backgroundColor}) => {
-  
+  const [copied, setCopied] = useState(false);
+
+
   const style={
     color,
     backgroundColor,
@@ -10,9 +13,18 @@ const LinkButton = ({link, fontFamily, color, backgroundColor}) => {
     fontStyle: "SemiBold",
   }
 
+  const handleCopy = () => {
+    copy(link);
+    setCopied(true);
+
+    setTimeout(() => {
+      setCopied(false);
+    }, 2000)
+  }
+
   return (
-    <div className="header-link-button" style={style}>
-      Copy Link
+    <div className="header-link-button" style={style} onClick={handleCopy}>
+      {copied ? "Copied":"Copy Link"}
     </div>
   )
 }
