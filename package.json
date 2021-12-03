@@ -1,6 +1,6 @@
 {
   "name": "glance-react-components",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "A react components for Glance",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
