@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import * as copy from 'copy-to-clipboard';
+import copy from 'copy-to-clipboard';
 
 const LinkButton = ({link, fontFamily, color, backgroundColor}) => {
   const [copied, setCopied] = useState(false);
