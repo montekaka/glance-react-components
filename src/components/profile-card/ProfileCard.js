@@ -38,7 +38,7 @@ const ProfileCard = (props) => {
             <div style={{
               color: primaryColor,
               fontFamily,
-              fontSize: "36px",
+              fontSize: "24px",
               marginBottom: '10px',
               fontStyle: "SemiBold"
               }} className="title">{title}</div>
