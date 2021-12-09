@@ -15,9 +15,10 @@ const MyStacks = ({
 }) => {
 
   const style = {
-    borderRadius: 16,
+    borderRadius: "60px",
     backgroundColor, // "#1F044A"
     fontFamily, // "DM Sans",
+    padding: "60px",
     minHeight: "240px"
   }
 

@@ -156,7 +156,7 @@ stories.add('Skills', () => {
     <MyStacks
       title="Technical Skills"
       iconName="tech-stacks"
-      fontFamily="Inter"
+      fontFamily="Outfit"
       backgroundColor="#131C45"      
       headerIconStyle={{
         width: "24px",
@@ -165,7 +165,7 @@ stories.add('Skills', () => {
         pathFill: "#FFFFFF"
       }}
       headerStyle={{
-        color: "#6E7598"
+        color: "#fff"
       }}  
       stacksBackgroundColor="#222E66"
       stacks={['python', 'my-sql', 'react-js', 'ant-design', 'firebase', 'nginx', 'mongo']}

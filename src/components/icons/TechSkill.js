@@ -85,14 +85,14 @@ const Logo = ({skill}) => {
 const TechSkill = ({backgroundColor, skill}) => {
   return (
     <div style={{
-      width: '32px',
-      height: '32px',
+      width: '64px',
+      height: '64px',
       display: 'flex',
       justifyContent: 'center',
       // alignContent: 'center',
       alignItems: 'center',
       backgroundColor,
-      borderRadius: '8px'
+      borderRadius: '64px'
     }}>
       <Logo skill={skill}/>
     </div>
