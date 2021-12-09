@@ -4,21 +4,23 @@ import ProfileLinks from './ProfileLinks'
 import LinkButton from './LinkButton'
 import './style.css'
 
-const ProfileCard = ({
-  title,
-  subtitle,
-  avatarSrc,
-  avatarSize,
-  avatarBackgroundColor,
-  backgroundColor,
-  fontFamily,
-  primaryColor,
-  secondaryColor, 
-  link,
-  links,
-  linkColor,
-  linksColor
-}) => {
+const ProfileCard = (props) => {
+  const {
+    title,
+    subtitle,
+    avatarSrc,
+    avatarSize,
+    avatarBackgroundColor,
+    backgroundColor,
+    fontFamily,
+    primaryColor,
+    secondaryColor, 
+    link,
+    links,
+    linkColor,
+    linksColor
+  } = props;
+
   return (
     
     <div style={{backgroundColor}}
@@ -52,10 +54,11 @@ const ProfileCard = ({
           }} className="subtitle">
             {subtitle}
           </div> 
+          {props.children}
         </div>
       </div>
       <div>
-        
+
       </div>
     </div>
     
