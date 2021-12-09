@@ -19,7 +19,7 @@ const Header = ({
           <Logo rect_fill={iconStyle.rectFill} path_fill={iconStyle.pathFill} iconName={iconName} />
         </div> */}
         <div className="title" style={{
-          fontSize: "28",
+          fontSize: "32",
           ...style
         }}>{title}</div>
       </div>          

@@ -17,7 +17,8 @@ const GithubCalendarCard = ({
 }) => {
 
   const style = {
-    borderRadius: 16,
+    borderRadius: 60,
+    padding: "20px",
     backgroundColor, // "#1F044A"
     fontFamily, // "DM Sans",
   }
