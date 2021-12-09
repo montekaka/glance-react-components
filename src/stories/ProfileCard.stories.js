@@ -8,7 +8,7 @@ stories.add('Basic', () => {
   return (
     <ProfileCard
       avatarSrc="https://res.cloudinary.com/practicaldev/image/fetch/s--gp5P5SDr--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/720899/6b13c674-ecae-48f5-8d68-0dc91d890616.jpeg"
-      avatarSize="100"
+      avatarSize="100px"
       avatarBackgroundColor="#553BFF"
       title="Jack Wilson"
       subtitle="Product Designer, previously at Apple, Adobe, Dropbox"

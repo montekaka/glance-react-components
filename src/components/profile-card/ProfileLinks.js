@@ -4,7 +4,7 @@ import {Logo} from '../icons'
 const ProfileLinks = ({links, size, iconSize, color}) => {
   if(links && links.length > 0) {
     return (
-      <div style={{display: 'flex'}}>
+      <div style={{display: 'flex', gap: "10px", flexWrap: 'wrap'}}>
         {
           links.map((link, idx) => {
             return (
@@ -21,8 +21,7 @@ const ProfileLinks = ({links, size, iconSize, color}) => {
                   alignItems: 'center',
                   width: size,
                   height: size,
-                  borderRadius: "100%",
-                  marginRight: '5px'
+                  borderRadius: "100%"
                 }}>
                   <Logo                     
                     iconName={link.id}

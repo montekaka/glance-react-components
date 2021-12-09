@@ -24,37 +24,39 @@ const ProfileCard = ({
     <div style={{backgroundColor}}
       className="profile-card"
     >
-      <div className="profile-card-avatar">
-        <Avatar 
-          avatarSrc={avatarSrc} 
-          avatarSize={avatarSize}
-          backgroundColor={avatarBackgroundColor}/>
-      </div>
-      <div className="profile-card-metas">
-        <div style={{
-          color: primaryColor,
-          fontFamily,
-          fontSize: "21px",
-          fontStyle: "SemiBold"
-        }} className="title">{title}</div>
-        <div style={{
-          color: secondaryColor,
-          fontFamily,
-          fontSize: "18px",
-          fontStyle: "Regular"          
-        }} className="subtitle">
-          {subtitle}
+      <div className="main">
+        <div className="header">
+          <div className="profile-card-avatar">
+            <Avatar 
+              avatarSrc={avatarSrc} 
+              avatarSize={avatarSize}
+              backgroundColor={avatarBackgroundColor}/>
+          </div>
+          <div className="header-meta">
+            <div style={{
+              color: primaryColor,
+              fontFamily,
+              fontSize: "36px",
+              marginBottom: '10px',
+              fontStyle: "SemiBold"
+              }} className="title">{title}</div>
+            <ProfileLinks links={links} size="20px" iconSize="16px" color={linksColor}/>
+          </div>          
         </div>
-        <ProfileLinks links={links} size="16px" iconSize="14px" color={linksColor}/>
+        <div className="description">
+          <div style={{
+            color: secondaryColor,
+            fontFamily,
+            fontSize: "18px",
+            fontStyle: "Regular"          
+          }} className="subtitle">
+            {subtitle}
+          </div> 
+        </div>
       </div>
-      <div className="profile-card-link">
-        <LinkButton 
-          link={link}
-          backgroundColor={linkColor} 
-          color={primaryColor} 
-          fontFamily={fontFamily}
-        />
-      </div>        
+      <div>
+        
+      </div>
     </div>
     
   )
