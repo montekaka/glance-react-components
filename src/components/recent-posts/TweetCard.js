@@ -1,6 +1,6 @@
 import React from 'react';
 import PostsLayout from './PostsLayout'
-import Header from './Header';
+import HeaderIcon from './HeaderIcon';
 import Avatar from './Avatar'
 
 const TweetCard = ({
@@ -24,10 +24,12 @@ const TweetCard = ({
 }) => {
 
   const style = {
-    borderRadius: 16,
+    borderRadius: "60px",
+    padding: '60px',
     backgroundColor, // "#1F044A"
-    fontFamily, // "DM Sans",
+    fontFamily, // "DM Sans",    
     cursor: 'pointer',
+    display: 'flex'
   }
 
   const linkClick = () => {
@@ -35,16 +37,9 @@ const TweetCard = ({
   }
 
   return (
-    <PostsLayout style={style} onClick={linkClick}>
-      <Header title={title} iconName={iconName} style={headerStyle} iconStyle={headerIconStyle}/>      
+    <PostsLayout style={style} onClick={linkClick}>      
       <div 
-      style={{
-        margin: "30px",
-        minWidth: "273px",
-        minHeight: "100px",
-        borderRadius: "12px",
-        padding: "16px",
-        backgroundColor: cardBackgroundColor,        
+      style={{     
         display: 'flex'
       }}>
         <div className="tweet-avatar" style={{marginRight: '12px'}}>
@@ -66,7 +61,7 @@ const TweetCard = ({
           </p>
         </div>
       </div>
-      <br/>
+      <HeaderIcon title={title} iconName={iconName} style={headerStyle} iconStyle={headerIconStyle}/>      
     </PostsLayout>
   )
 }
