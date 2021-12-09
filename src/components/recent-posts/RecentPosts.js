@@ -19,7 +19,8 @@ const RecentPosts = ({
 
   // const [items, loading, errorMessage] = useFetchFeed(feedUrl, proxy, numberOfItems);
   const style = {
-    borderRadius: 16,
+    borderRadius: "60px",
+    padding: "30px",
     backgroundColor, // "#1F044A"
     fontFamily, // "DM Sans" 
   }
