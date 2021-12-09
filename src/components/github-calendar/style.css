@@ -5,13 +5,6 @@
 
 @media screen and (min-width: 500px) {
   .github-calendar-item {
-    width: 4.8px;
-    height: 4.8px;
-  }
-}
-
-@media screen and (min-width: 500px) {
-  .github-calendar-item {
     width: 5.6px;
     height: 5.6px;
   }
@@ -26,13 +19,6 @@
 
 @media screen and (min-width: 900px) {
   .github-calendar-item {
-    width: 11px;
-    height: 11px;
-  }
-}
-
-@media screen and (min-width: 900px) {
-  .github-calendar-item {
     width: 13px;
     height: 13px;
   }
@@ -40,7 +26,7 @@
 
 @media screen and (min-width: 1200px) {
   .github-calendar-item {
-    width: 10px;
-    height: 10px;
+    width: 9px;
+    height: 9px;
   }
 }
