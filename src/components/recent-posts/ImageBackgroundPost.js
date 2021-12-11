@@ -2,10 +2,10 @@ import React from 'react';
 import PostsLayout from './PostsLayout'
 
 const ImageBackgroundPost = (props) => {
-  const {title, link, imgSrc, fontFamily, textColor, textBackgroundColor} = props;
+  const {title, link, imgSrc, fontFamily, textColor, textBackgroundColor, height} = props;
 
   const style = {    
-    height: "360px",
+    height: height ? height : "240px",
     fontFamily, // "DM Sans",
     color: textColor,
     position: "relative",    
