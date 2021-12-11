@@ -11,7 +11,7 @@ stories.add('Basic', () => {
       textBackgroundColor="#ffffff60"
       title="Invoiceku Landing Page Mobile Responsive"
       link="https://www.apple.com"
-      imgSrc="https://cdn.dribbble.com/users/3860505/screenshots/16531652/media/8f420812877e556f8eb2fdc26c77056d.png?compress=1&resize=1600x1200"      
+      imgSrc="https://cdn.dribbble.com/users/78637/screenshots/16412749/media/b0f27d90ee6ab8fc5b770a15818748e7.png?compress=1&resize=1600x1200"
     />
   )
 })

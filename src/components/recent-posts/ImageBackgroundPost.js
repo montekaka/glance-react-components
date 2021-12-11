@@ -4,32 +4,45 @@ import PostsLayout from './PostsLayout'
 const ImageBackgroundPost = (props) => {
   const {title, link, imgSrc, fontFamily, textColor, textBackgroundColor} = props;
 
-  const style = {
-    borderRadius: "60px",
-    minHeight: "360px",
+  const style = {    
+    height: "360px",
     fontFamily, // "DM Sans",
-    backgroundImage: `url(${imgSrc ? imgSrc : "https://via.placeholder.com/160"})`,
-    backgroundRepeat: `no-repeat`,
-    backgroundPostition: `center center`,
-    backgroundSize: 'cover',
     color: textColor,
-    display: 'flex',
-    flexDirection: "column-reverse"
+    position: "relative",    
+    // display: 'flex',
+    // flexDirection: "column-reverse"
   }
 
   const textStyle = {
-    padding: "20px",
-    borderRadius: '10px',
-    backgroundColor: `${textBackgroundColor}`,
-    backdropFilter: 'blur(10px)'
+    // padding: "20px",
+    position: "absolute",
+    bottom: "0px",
+    width: "100%",
   }
 
   return (
     <a href={link} style={{textDecoration: 'none'}}>
       <PostsLayout style={style}>
-        <div style={{padding: "20px",}}>
-          <p style={textStyle}>{title}</p>
-        </div>
+        
+          <img style={{
+            borderRadius: "60px",
+            position: "absolute",
+            left: "0px",
+            top: "0px",
+            width: "100%",
+            height: "100%",
+            objectFit: "cover"
+          }} src={imgSrc} alt="" />
+          <div style={textStyle}>
+            <p style={{
+              margin: "20px",
+              padding: "20px",
+              borderRadius: '30px',
+              backgroundColor: `${textBackgroundColor}`,
+              backdropFilter: 'blur(10px)',
+            }}>{title}</p>
+          </div>
+        
       </PostsLayout>
     </a>
 
